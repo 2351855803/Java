@@ -1,0 +1,7 @@
+public class Cat extends Animal
+{
+	public void zhuaLaoShu()
+	{
+		System.out.println("Ã¨×¥ÀÏÊó");
+	}
+}

@@ -1,0 +1,29 @@
+public class Test
+{
+	public static void main(String[] args)
+	{
+
+	Cat c = new Cat();
+	c.doSome();
+
+	}
+	
+
+
+}
+
+class Animal
+{
+   public void doSome()
+   {
+	System.out.println("¶¯ÎïÔÚ±¼ÅÜ");
+   }
+
+}
+
+
+class Cat extends Animal
+{
+
+
+}

@@ -1,0 +1,28 @@
+public class Master
+{   
+
+
+	public void feed(Pet pet)
+	{
+		
+
+
+		if(pet instanceof Dog)
+		{
+			pet.eat();
+		}
+		else if(pet instanceof Cat)
+		{
+			pet.eat();
+		}
+		else if(pet instanceof YingWu)
+		{
+			pet.eat();
+		}
+
+		
+
+
+	}
+
+}

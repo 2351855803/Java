@@ -1,0 +1,26 @@
+public class Test
+{
+	public static void main(String[] args)
+	{
+
+
+		//宠物对象
+		Pet d = new Dog();
+		Pet c = new Cat();
+		Pet y = new YingWu();
+
+		//主人对象
+		Master zhangSan = new Master();
+
+
+		zhangSan.feed(c);
+		zhangSan.feed(d);
+		zhangSan.feed(y);
+
+
+
+
+
+
+	}
+}
