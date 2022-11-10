@@ -1,0 +1,38 @@
+public class Age
+{
+	 private int age;
+
+
+
+
+
+    public int getAge()
+	{
+		return age;
+	}
+
+
+
+
+
+	public void setAge(int nianLing)
+	{
+
+		age = nianLing;
+
+		if (age<0 | age>150)
+		{
+			System.out.println("ÄêÁä·Ç·¨£¡£¡£¡£¡");
+			return;
+		}
+
+	}
+
+
+
+
+
+
+
+
+}
