@@ -1,0 +1,38 @@
+public class BookTest
+{
+	public static void main(String[] args)
+   {
+
+	Book book = new Book();
+
+	//读取页数
+	System.out.println(book.pageNumGet());
+	//读取书名
+	System.out.println(book.titleGet());
+
+
+	//设置页数
+	book.pageNumSet(250);
+	//读取页数
+	System.out.println(book.pageNumGet());
+	//设置页数--错误的
+	book.pageNumSet(170);
+
+
+	//设置书名
+	book.titleSet("1111111111111111");
+	//读取书名
+	System.out.println(book.titleGet());
+
+
+	
+	System.out.println("--------------------------");
+	
+
+	//调用detail
+	book.detail();
+
+    
+
+   }
+}

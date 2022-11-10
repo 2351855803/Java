@@ -1,0 +1,32 @@
+public class Husband
+{
+	String shenfenzheng;
+	String mingzi;
+	String chushengriqi;
+	String qizi;
+
+	public Husband()
+	{
+
+	}
+
+	public Husband(String id, String name, String birthday, String wife )
+	{
+		shenfenzheng = id;
+		mingzi = name;
+		chushengriqi = birthday;
+	    qizi = wife;
+
+	}
+//---------------------------------------------------------------------------
+
+    public static void main(String[] args)
+	{
+		Wife qizi = new Wife();
+	}
+
+
+
+
+
+}

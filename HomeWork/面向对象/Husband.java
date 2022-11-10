@@ -1,0 +1,11 @@
+public class Husband
+{
+	String shenfenzheng = "1111111111111111111111111111";
+	String mingzi = "Ð¡Ã÷";
+	String chushengriqi = "1.1";
+	String qizi = "Ð¡ºì";
+
+	Wife wife;
+
+
+}
