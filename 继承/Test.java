@@ -1,0 +1,16 @@
+public class Test
+{
+	public static void main(String [] args)
+	{
+		User u = new User();
+		System.out.println(u);    //User@54bedef2  近似看做内存地址
+	
+	    User u1 = new User();
+        System.out.println(u1);	  //User@5caf905d
+	}
+}
+
+class User
+{
+	String name;
+}
